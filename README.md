@@ -1,8 +1,8 @@
 # 02100 Coding challenge
 
-Page design used Toolpad Core (built on MUI)
-Written in Typescript
-Responses are saved used localStorage
+Page design used Toolpad Core (built on MUI) |
+Written in Typescript | 
+Responses are saved used localStorage |
 
 ## Getting Started
 
