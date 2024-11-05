@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Outlet } from 'react-router-dom';
-import { AppProvider, type Navigation } from '@toolpad/core/react-router-dom';
+import { AppProvider } from '@toolpad/core/react-router-dom';
 import { LooksOne, LooksTwo, Looks3 } from '@mui/icons-material';
 
-const NAVIGATION: Navigation = [
+const NAVIGATION = [
   {
-    kind: 'header',
+    kind: 'page',
     title: 'Main items',
   },
   {
