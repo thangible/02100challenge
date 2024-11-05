@@ -12,22 +12,20 @@ type NavigationPageItem = {
 
 type NavigationItem = NavigationPageItem;
 
-const NAVIGATION = [
+const NAVIGATION: NavigationItem[] = [
   {
     kind: 'page',
-    title: 'Main items',
-  },
-  {
     segment: 'task-1',
     title: 'Form',
     icon: <LooksOne />,
   },
-  {
+  { kind: 'page',
     segment: 'task-2',
     title: 'Saved Responses',
     icon: <LooksTwo />,
   },
-  { segment: 'task-3',
+  { kind: 'page',
+    segment: 'task-3',
     title: 'Great Sucess', 
     icon: <Looks3 /> },
 ];

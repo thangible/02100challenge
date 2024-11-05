@@ -21,7 +21,7 @@ export default function TaskTwo() {
           </TableRow>
         </TableHead>
         <TableBody>
-          {formData.map((data, index) => (
+          {formData.map((data: any, index: number) => (
             <TableRow key={index}>
               <TableCell>{data.name}</TableCell>
               <TableCell>{data.email}</TableCell>
