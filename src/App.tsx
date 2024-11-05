@@ -3,6 +3,15 @@ import { Outlet } from 'react-router-dom';
 import { AppProvider } from '@toolpad/core/react-router-dom';
 import { LooksOne, LooksTwo, Looks3 } from '@mui/icons-material';
 
+type NavigationPageItem = {
+  kind: 'page';
+  title: string;
+  segment?: string;
+  icon?: JSX.Element;
+};
+
+type NavigationItem = NavigationPageItem;
+
 const NAVIGATION = [
   {
     kind: 'page',
